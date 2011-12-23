@@ -79,6 +79,10 @@
 
 	{ "keys": ["u"], "command": "undo", "context": [{"key": "setting.command_mode"}] },
 	{
+		"keys": ["U"], "command": "redo",
+		"context": [{"key": "setting.command_mode"}]
+	},
+	{
 		"keys": ["ctrl+r"], "command": "redo",
 		"context": [{"key": "setting.command_mode"}, {"key": "setting.vintage_ctrl_keys"}]
 	},
