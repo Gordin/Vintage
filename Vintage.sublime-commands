@@ -1,5 +1,9 @@
 [
     {
+        "caption": ":quit - Close File",
+        "command": "close"
+    },
+    {
         "caption": ":write - Save",
         "command": "save"
     },
