@@ -26,6 +26,10 @@
         "command": "prompt_open_file"
     },
     {
+        "caption": ":new - New File",
+        "command": "new_file"
+    },
+    {
         "caption": ":nosplit - Layout Single",
         "command": "set_layout",
         "args":
