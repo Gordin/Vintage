@@ -1,10 +1,10 @@
 [
     {
-        "caption": ":w - Save",
+        "caption": ":write - Save",
         "command": "save"
     },
     {
-        "caption": ":e - Revert",
+        "caption": ":edit - Revert",
         "command": "revert"
     },
     {
@@ -18,7 +18,7 @@
         "args": {"to": "eof"}
     },
     {
-        "caption": ":browse e - Open File...",
+        "caption": ":browse edit - Open File...",
         "command": "prompt_open_file"
     }
 ]
