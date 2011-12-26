@@ -12,6 +12,10 @@
         "command": "revert"
     },
     {
+        "caption": ":make - Build",
+        "command": "build"
+    },
+    {
         "caption": ":0 - BOF",
         "command": "move_to",
         "args": {"to": "bof"}
