@@ -72,5 +72,10 @@
             "rows": [0.0, 0.5, 1.0],
             "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
             }
+    },
+    {
+        "caption": ":tabfirst - Go to the first tab",
+        "command": "select_by_index",
+        "args": { "index": 0 }
     }
 ]
