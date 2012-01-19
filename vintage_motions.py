@@ -287,3 +287,14 @@ class ScrollCurrentLineToScreenCenter(sublime_plugin.TextCommand):
          point = advance_while_white_space_character(self.view, point)
          transform_selection(self.view, lambda pt: point, extend)
          self.view.run_command('show_at_center')
+
+class SplitNavigationCommand(sublime_plugin.TextCommand):
+    def run(self, edit, direction):
+         win = self.view.window()
+         num = win.num_groups()
+         act = win.active_group()
+         if direction == "up":
+           act = act + 1
+         else:
+           act = act - 1
+         win.focus_group(act % num)
